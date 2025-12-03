@@ -7,7 +7,7 @@ int main()
 	int x = 5;
 
 	for (int i = 0; i < 5; i++) {
-		if (i % 2 == 0) // skip the iteration for every pair number
+		if ((i + 1) % 2 == 0) // skip the iteration for every odd number
 			continue; // skip the next iteration of the loop
 		
 		std::cout << i;
